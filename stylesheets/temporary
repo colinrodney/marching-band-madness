@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/**/
+.howardCard{
+    background-color: #252b37;
+    color: #fff;
+
+}
+body{
+  background-color: #bcbcbc;
+}
+
+.navbar-custom{
+    background-color: #1F7A8C;
+}
+.navbar-custom a{
+    color: #FDFFFC;
+}
+.navbar-custom a:hover{
+    background-color: #a31621;
+    color: #FDFFFC;
+}
+
+.header-A{
+    background: #022B3A;
+    color: #fdfffc;
+    font-weight: 200;
+    padding: 15px;
+}
+.header-B{
+    text-align: center;
+    background-color: #a31621;
+    color: #fdfffc;
+    font-weight: 200;
+    padding: 15px;
+    /*padding-top: 75px;*/
+}
+#tickets{
+    font-size: 1.5em;
+}
+.container-fluid h3{
+    text-align: center;
+}
+
+/*custom button styling*/
+
+#tickets{
+    background-color: #1F7A8C;
+    color: #fdfffc;
+}
+.howard-btn{
+    border: thin solid #dc3545;
+    color: #fff;
+    font-size:1.5em;
+}
+
+.howard-btn:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/*Miles College*/
+.milesCard{
+    background-color: #493d7d;
+    color: #fff;
+    border: thin solid goldenrod;
+}
+
+.miles-btn{
+    color: #fff;
+    font-size: 1.5em;
+    border: thin solid gold;
+}
+.miles-btn:hover{
+    background-color: goldenrod;
+    color: #493d7d;
+    font-size: 1.5em;
+}
+
+/*font-awesome youtube icon custom*/
+.fa-milesCollege:hover{
+    color: goldenrod;
+}
+
+/*Southern U*/
+
+.suCard{
+  background-color: #1d2c5b;
+  color: #fff;
+  border: thin solid gold;
+}
+.southern-btn{
+    /*background-color: #fff;*/
+    color: #ffc001;
+    font-size: 1.5em;
+    border: thin solid #ffc001;
+}
+
+.southern-btn:hover{
+    background-color: #ffc001;
+    color: #121e41;
+}
+
+/*Grambling*/
+.gramblingCard{
+    background-color: #fe4848;
+    color: #fff;
+    border: thin solid black;
+
+}
+.grambling-btn{
+    font-size: 1.5em;
+    background-color: #fe4848;
+    color: #fff;
+    border: thin solid #fff;
+
+
+}
+.grambling-btn:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/*Tennessee State*/
+.tennStateCard{
+    background-color: #07070c;
+    color: #fff;
+}
+.tennState-btn, .tennState-btn-border{
+    font-size: 1.5em;
+    border: thin solid red;
+    color: #fff;
+}
+.tennState-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+/*Prarie View*/
+.pv-btn{
+    font-size: 1.5em;
+}
+.pv-card, .pv-btn-border{
+    background-color: #1a1824;
+    color: hsla(42, 99%, 50%, 1);
+    border: thin solid hsla(42, 99%, 50%, 1);
+}
+.pv-btn:hover{
+    background-color: hsla(42, 99%, 50%, 1);
+    color: #1a1824;
+}
+
+/*font-awesome youtube icon customizations*/
+.fa{
+    position: relative;
+    top: 13px;
+    left: 20px;
+    font-size: 3em;
+    color: red;
+}
+.southern:hover{
+    color: #1d2c5b;
+    color: #ffc001;
+}
+
+.fa-howard:hover{
+    color: #fff;
+}
+.fa-grambling{
+    color: #fff;
+
+}
+.fa-grambling:hover{
+    color: black;
+}
+.fa-tennState:hover{
+    color: #fff;
+}
+.fa-pv:hover{
+    color: hsla(42, 99%, 50%, 1);
+}
+.logoImages{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.featuredBands{
+    padding-bottom: 100px;
+}
+
+
+
+/*Set Custom Margin between section
+and between individual band block sections
+.featuredBands{
+    margin-top: 50px;
+}*/
+
+.bandBlocks{
+    margin-top: 100px;
+}
+.bandBlocks > h3{
+    margin-top: 85px;
+}
+
+.col-12, .col-lg-6{
+  padding: 0px;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+/* Media Queries
+/*max-width = greater than or equal to "x" pixels*
+min-width = less than or equal to "x" pixels/ */
+
+/*center header text +
+*make band logos larger in width + height on smaller screens**/
+@media screen and (max-width: 992px){
+    .header-A, .header-B{
+        text-align: center;
+    }
+
+    .logoImages{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+
+    h5{
+      font-size:
+    }
+
+    /*Custom font for h5 in cards*/
+    .customFont{
+      font-size: 1.7rem;
+    }
+}
