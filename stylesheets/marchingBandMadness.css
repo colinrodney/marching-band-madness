@@ -258,5 +258,12 @@ and between individual band block sections
   margin-left: 0px;
 }
 
+/*Media Query FIX THIS!!*/
 
+@media screen and(max-width: 768px){
+    #schoolLogos .img-fluid{
+    width: 675px;
+    height: 375px;
+    }
+}
 
