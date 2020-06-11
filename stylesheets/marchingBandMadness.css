@@ -46,7 +46,7 @@ body{
     min-width: 100%;
     left: 0;
     top: 0;
-        background: rgba(50, 0, 0, 0.2);
+    background: rgba(50, 0, 0, 0.2);
 }
 
 .description{
@@ -54,15 +54,20 @@ body{
     top: 4em;
     color: #fff;
 }
+
+.description p{
+    font-size: 1em;
+}
+
 .description button{
     border: thin solid lightblue;
     color: #fff;
-    background-color: #a8b4c1;
+    background-color: #0c66c7;
 }
 
 .description button:hover{
-    background-color: #fff;
-    color: darkgray;
+    background-color: #d9d9d9;
+    color: #0c66c7;
 }
 
 /*School Logos Section*/
@@ -77,6 +82,7 @@ body{
     color: #FDFFFC;
 }
 
+/*Create space between the 2 rows in 3-column section*/
 #schoolLogos > .row{
     margin-top: 25px;
 }
@@ -86,7 +92,7 @@ body{
 }
 
 #schoolLogos .img-fluid{
-    width: 475px;
+    width: 675px;
     height: 375px;
 }
 
@@ -258,12 +264,14 @@ and between individual band block sections
   margin-left: 0px;
 }
 
-/*Media Query FIX THIS!!*/
-
-@media screen and(max-width: 768px){
+/*Media Query FIX THIS!!
+@media screen and(min-width: 768px){
     #schoolLogos .img-fluid{
-    width: 675px;
+    width: 475px;
     height: 375px;
     }
 }
+*/
+
+
 
