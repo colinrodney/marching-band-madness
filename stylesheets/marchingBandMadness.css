@@ -63,4 +63,22 @@ body{
     color: darkgray;
 }
 
+/*School Logos Section*/
+
+#schoolLogos{
+    margin: 2em auto;
+    padding: 10px;
+}
+
+#schoolLogos .col-md-4{
+    margin-bottom: 125px;
+}
+
+#schoolLogos .img-fluid{
+    width: 675px;
+    height: 375px;
+}
+
+/*Even Size of all schoolLogos*/
+
 
