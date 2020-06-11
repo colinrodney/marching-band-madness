@@ -19,7 +19,7 @@ body{
 /*Nav bar*/
 
 .navbar{
-    background-color: #1F7A8C;
+    background-color: #022B3A;
 }
 .navbar a{
     color: #FDFFFC;
@@ -262,6 +262,16 @@ and between individual band block sections
 .row{
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.footer{
+    padding: 25px;
+    background-color: #022B3A;
+    color: #fff;
+}
+
+.footer p{
+    margin: 25px 145px;
 }
 
 /*Media Query FIX THIS!!
