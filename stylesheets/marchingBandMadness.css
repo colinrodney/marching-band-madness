@@ -264,6 +264,7 @@ and between individual band block sections
   margin-left: 0px;
 }
 
+/*footer*/
 .footer{
     padding: 25px;
     background-color: #022B3A;
@@ -271,8 +272,21 @@ and between individual band block sections
 }
 
 .footer p{
-    margin: 25px 145px;
+    margin: 25px auto;
+    font-size: 20px;
 }
+
+.footer h3{
+    margin-bottom: 100px;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 
 /*Media Query FIX THIS!!
 @media screen and(min-width: 768px){
