@@ -36,8 +36,13 @@ body{
     background-image: url("https://i.postimg.cc/WbVYjLfz/howardMB.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;  
+}
+
+.header h1{
+    margin-top: 2vh;
+    font-size: 1.5em;
+    font-size: 7vw;
 }
 
 .overlay{
@@ -55,15 +60,18 @@ body{
 }
 
 
-
 .description p{
-    font-size: 1em;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
+
 
 .description button{
     border: thin solid lightblue;
     color: #fff;
     background-color: #0c66c7;
+    width: 150px;
+    height: 45px;
 }
 
 .description button:hover{
@@ -297,6 +305,15 @@ and between individual band block sections
     }
 }
 */
+
+/**/
+@media screen and(min-width: 768px){
+    .header #eventDate{
+    margin-top: vh;
+    }
+}
+
+
 
 
 
