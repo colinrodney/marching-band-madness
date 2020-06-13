@@ -51,9 +51,10 @@ body{
 
 .description{
     position: relative;
-    top: 4em;
     color: #fff;
 }
+
+
 
 .description p{
     font-size: 1em;
