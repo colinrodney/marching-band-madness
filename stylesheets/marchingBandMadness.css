@@ -319,16 +319,13 @@ and between individual band block sections
     #tagline{
         font-size: 35px;
     }
-}
-/*Media Query FIX THIS!!
-@media screen and(min-width: 768px){
-    #schoolLogos .img-fluid{
-    width: 475px;
-    height: 375px;
-    }
+
+      #schoolLogos h4{
+        font-size: 2vw;
+        }
 }
 
-/**/
+
 
 
 
