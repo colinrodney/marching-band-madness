@@ -97,6 +97,10 @@ body{
     color: #FDFFFC;
 }
 
+#schoolLogos h4{
+    font-size: 4vw;
+}
+
 /*Create space between the 2 rows in 3-column section*/
 #schoolLogos > .row{
     margin-top: 25px;
@@ -300,6 +304,7 @@ and between individual band block sections
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
 
 @media screen and (min-width: 768px){
@@ -321,9 +326,13 @@ and between individual band block sections
     #schoolLogos .img-fluid{
     width: 475px;
     height: 375px;
+=======
+@media screen and (min-width: 768px){
+    #schoolLogos h4{
+    font-size: 2vw;
+>>>>>>> school-logo-links
     }
 }
-*/
 
 /**/
 
