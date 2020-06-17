@@ -41,8 +41,8 @@ body{
 
 .header h1{
     margin-top: 8vh;
-    font-size: 1.5em;
-    font-size: 7vw;
+    font-size: 1.5rem;
+    font-size: 4.5vw;
 }
 
 #tagline{
@@ -309,8 +309,8 @@ and between individual band block sections
 
 @media screen and (min-width: 768px){
     .header #eventDate{
-        margin-top: 18.5vh;
-        font-size:  2vw;
+        margin-top: 9.5vh;
+        font-size: 1.5rem;
     }
 
     .header h1{
@@ -318,7 +318,7 @@ and between individual band block sections
     }
 
     #tagline{
-        font-size: 35px;
+        font-size: 1.5rem;
     }
 
       #schoolLogos h4{
