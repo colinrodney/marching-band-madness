@@ -319,6 +319,7 @@ and between individual band block sections
 /*screen size 768px and LARGER*/
 @media (min-width: 768px){
     .description > h5{
+        font-size: 1.55rem;
         margin-top: 40px;
     }
 }
@@ -332,7 +333,7 @@ and between individual band block sections
     }
 
     .description #tagline{
-        font-size: 1.2rem;
+        font-size: 3vw;
         margin-top: -5px;
         margin-bottom: 5px; 
     }
